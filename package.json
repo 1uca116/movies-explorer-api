@@ -1,0 +1,41 @@
+{
+  "name": "movies-explorer-api",
+  "version": "1.0.0",
+  "description": "## Директории",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "npx eslint .",
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1uca116/movies-explorer-api.git"
+  },
+  "author": "luc1a116",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1uca116/movies-explorer-api/issues"
+  },
+  "homepage": "https://github.com/1uca116/movies-explorer-api#readme",
+  "devDependencies": {
+    "eslint": "^7.23.0",
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "celebrate": "^14.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^9.0.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "express": "^4.17.1",
+    "express-winston": "^4.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.3",
+    "validator": "^13.6.0",
+    "winston": "^3.3.3"
+  }
+}
